@@ -1,0 +1,33 @@
+
+body{
+    background-color: purple;
+}
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .movieContainer .card{
+    height: 400px;
+} */
+
+.movieContainer img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.movieContainer .card-body{
+    padding: 1rem;
+}
+
+.movieContainer h5{
+    text-transform: capitalize;
+}
