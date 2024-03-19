@@ -90,7 +90,7 @@ const createMovie = (obj) => {
     col.id = obj.id;
     col.className = `col-md-4 movieContainer`;
 
-    col.innerHTML = `<div class="card w-75">
+    col.innerHTML = `<div class="card mb-3 w-75">
                         <div class="card-header">
                             <h5 class="m-0 d-flex justify-content-between">
                                 ${obj.movieTitle}
